@@ -18,3 +18,14 @@ body{
 
 
 }
+button{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principa);
+}
