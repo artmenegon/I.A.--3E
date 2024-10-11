@@ -1,45 +1,46 @@
 const caixaPrincipal = document.querySelector('.caixa-principal');
 const caixaPergunta = document.querySelector('.caixa-pergunta');
 const caixaAlternativa = document.querySelector('.caixa-alternativa');
-const caixaResultado = document.querySelector('.caixa-resultado');
+const caixaResultado = document.querySelector('.caixa-resultado');          
+const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [//abre a lista de objetos (itens)
     {//abre o item
-        enunciado:"Você acha que a Inteligência Artificial pode ser prejudicial aos seres humanos?",
+        enunciado:"Você gosta de músicas?",
         alternativas:[{
 
-             texto: "Sim",
-             afirmação: "Não temos controle quanto a isso"
+             texto: "Sim, sou fã",
+             afirmação: "Viver é bom demais"
        },
        {
-             texto: "Não",
-             afirmação: "A utilidade e facilidade nos ajuda a evoluir"
+             texto: "Não, odeio",
+             afirmação: "Minha vida consiste em um vazio imensurável e eu não sei o que é bom de verdade"
        }    
         ]
     },
     {
-        enunciado:"Você já assistiu o filme Eu, Robô?",
+        enunciado:"Você gosta de sair?",
         alternativas:[ {
 
-            texto: "Sim",
-            afirmação: "Já assisti"
+            texto: "Sim, sextou",
+            afirmação: "Tenho falsos amigos e disfarço a minha solidão saindo, mas até que estou feliz"
       },
       {
-            texto: "Não",
-            afirmação: "Nunca assisti"
+            texto: "Não, odeio todos",
+            afirmação: "Não tenho falsos amigos e na realidade nem tenho amigos, a solidão aflora o meu peito"
       }    
        ]
     },
     {
-        enunciado:"Você acha que o filme se encaixa na realidade?",
+        enunciado:"Você já assistiu a trilogia Senhor dos Anéis?",
         alternativas:[ {
 
-            texto: "Sim",
-            afirmação: "Nosso mundo pode se transformar no caos visto"
+            texto: "Sim, já assisti",
+            afirmação: "Trilogia bacana"
       },
       {
-            texto: "Não",
-            afirmação: "É uma realidade muito distante e utópica"
+            texto: "Não, nunca assisti",
+            afirmação: "Só não assisti mesmo, mas lá ele (Senhor dos Anéis? Vixi)"
       }    
        ]
     }
